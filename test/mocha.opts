@@ -1,0 +1,7 @@
+--bail
+--require should test/env
+--ui bdd
+--slow 1000ms
+--timeout 15000ms
+--reporter spec
+--recursive

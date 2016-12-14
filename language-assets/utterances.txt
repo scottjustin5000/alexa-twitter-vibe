@@ -1,0 +1,13 @@
+home_timeline_vibe	Tell me my vibe
+home_timeline_vibe	Tell me my twitter vibe
+home_timeline_vibe	Get my timeline vibe
+home_timeline_vibe	Get my twitter timeline vibe
+user_timeline_vibe	Get the vibe of {USERNAME}
+user_timeline_vibe	Get the vibe for {USERNAME}
+user_timeline_vibe	Get vibe of {USERNAME}'s timeline
+user_timeline_vibe	Get vibe of {USERNAME}'s twitter timeline
+user_timeline_vibe	Tell me {USERNAME}'s vibe
+user_timeline_vibe	Tell me {USERNAME}'s timeline vibe
+user_timeline_vibe	Tell me {USERNAME}'s twitter timeline vibe
+user_timeline_vibe	Tell me the vibe of {USERNAME}
+user_timeline_vibe	Tell me the vibe for {USERNAME}

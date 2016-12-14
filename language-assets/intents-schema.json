@@ -1,0 +1,12 @@
+{
+  "intents": [{
+    "intent": "home_timeline_vibe",
+    "slots": []
+  }, {
+    "intent": "user_timeline_vibe",
+    "slots": [{
+      "name": "USERNAME",
+      "type": "USERNAMES"
+    }]
+  }]
+}
