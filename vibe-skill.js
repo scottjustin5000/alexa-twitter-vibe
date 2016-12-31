@@ -52,7 +52,6 @@ function Vibe() {
 			var score = bayes.extractWinner(bayes.guess(tweet.text));
 
 			var user = tweet.user;
-			//console.log(user.name, score, tweet.text);
 
 			var tweetScore = new TweetScore(user.id, user.name, user.screen_name, score, tweet.text);
 
@@ -80,8 +79,10 @@ function Vibe() {
 
 	(function init() {
 		bayes = new BayesClassifier();
+
 		var negatives = ['trump', 'senator', 'frown', 'mug', 'trap','breitbart','fake', 'market','angry', 'bad', 'journalist', 'news', 'presidential','politicians', 'polls', 'pundits', 'Fox', 'war', 'Syria', 'guns', 'D.C.', 'Washington', 'troll','racist', 'racism', 'Congress', 'Senate', 'election', 'Jeff Sessions', 'Donald Trump', 'main stream media', 'Russia', 'Putin', 'Republican', 'stocks', 'crash', 'Democrats', 'ISIS', 'Bannon', 'white nationalist', 'white supremist', 'Giuliani', 'Gingrich', 'mean', 'nasty', 'hack', 'hacked', 'hate', 'security', 'Standing Rock', 'yankees', 'alt-right', 'president', 'money'];
 		var positives = ['Celtics', 'smiles', 'beautiful', 'node', 'Go', 'start-up', 'startup', 'aws', 'weather', 'girls','players', 'passion', 'football', 'basketball', 'baseball','sportradar', 'ufc', 'earth', 'nature', 'hip hop', 'NBA', 'NHL', 'NFL', 'MLB', 'Champ', 'Red Sox', 'Oakland', 'Obama', 'Rhode Island', 'Boston', 'children', 'happy', 'love', 'technology', 'numbers', 'math', 'education', 'football', 'baseball', 'candy', 'blm', 'black lives matter', 'Mookie Betts', 'David Price', 'candy', 'HBO', 'San Francisco', 'California', 'Oregon', 'coffee', 'nodejs', 'javascript', 'socialism', 'Canada', '#LETSGOCHAMP'];
+		
 		var length = negatives.length;
 		negatives.sort(function() {
 			return Math.random() - 0.5;
